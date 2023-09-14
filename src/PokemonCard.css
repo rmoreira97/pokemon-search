@@ -1,0 +1,38 @@
+/* PokemonCard.css */
+/* PokemonCard.css */
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px; /* Add some top margin */
+}
+
+.card-content button {
+  display: none;
+}
+
+.card:hover .card-content button {
+  display: block;
+}
+
+.ui.cards .image img {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+}
+
+button.edit-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 700px;
+}
+
+/* change edit button upon hover */ 
+
+button.edit-button:hover {
+  background-color: #ff2600;
+}

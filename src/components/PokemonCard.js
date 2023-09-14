@@ -1,12 +1,8 @@
-import React from "react";
-import { Card } from "semantic-ui-react";
-import { useState } from "react";
+import React, { useState } from "react";
+import { Card, Button } from "semantic-ui-react";
+import "../PokemonCard.css";
 
-// We have to display the pokemons name, sprite and hp, pass the details as props to the component
-// and use the props to render the details.
-//
-
-function PokemonCard({ name, spriteUrl, hp }) {
+function PokemonCard({ id, name, spriteUrl, hp, onDeletePokemon, isEditMode }) {
   const [isFront, setIsFront] = useState(true);
 
   const toggleSprite = () => {
@@ -19,7 +15,7 @@ function PokemonCard({ name, spriteUrl, hp }) {
         <div className="image">
           <img
             src={isFront ? spriteUrl.front : spriteUrl.back}
-            alt={`Pokeon ${name}`}
+            alt={`Pokemon ${name}`}
           />
         </div>
         <div className="content">
@@ -31,6 +27,17 @@ function PokemonCard({ name, spriteUrl, hp }) {
             {hp} HP
           </span>
         </div>
+      </div>
+      <div className="card-content">
+        {isEditMode && ( // Conditionally render the Remove button
+          <Button
+            className="remove-button"
+            color="red"
+            onClick={() => onDeletePokemon(id)}
+          >
+            Remove
+          </Button>
+        )}
       </div>
     </Card>
   );

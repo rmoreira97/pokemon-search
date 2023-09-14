@@ -208,15 +208,6 @@
       }
     },
     {
-      "id": 25,
-      "name": "pikachu",
-      "hp": 35,
-      "sprites": {
-        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
-        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png"
-      }
-    },
-    {
       "id": 26,
       "name": "raichu",
       "hp": 60,
@@ -358,15 +349,6 @@
       "sprites": {
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/41.png"
-      }
-    },
-    {
-      "id": 42,
-      "name": "golbat",
-      "hp": 75,
-      "sprites": {
-        "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png",
-        "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/42.png"
       }
     },
     {
@@ -1340,6 +1322,15 @@
         "front": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png",
         "back": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/150.png"
       }
+    },
+    {
+      "name": "Momotaro",
+      "hp": "100",
+      "sprites": {
+        "front": "https://i.pinimg.com/originals/24/97/88/249788ab6c626cb46df87bbd2d55526e.jpg",
+        "back": "https://th.bing.com/th/id/R.cf37f747524830695b9eb372d64a4852?rik=Hm5NJzVIb9QOqw&riu=http%3a%2f%2fwww.shigen.nig.ac.jp%2fgain%2fimage_data%2fgori%2findi%2f0091%2fface_20070904120618_momotaro_face.jpg&ehk=J6Nv%2bSlvlicl0b78myT4k4mA577wwOpoziY3WhP0wnY%3d&risl=&pid=ImgRaw&r=0"
+      },
+      "id": 151
     }
   ]
 }
